@@ -58,8 +58,9 @@ void displayGraph(std::vector<std::vector<int>>& graph_array) {
 		}
 		std::cerr << std::endl;
 	}
-	//Sleep(100);
-	std::cerr << "-----------" << std::endl;
+	//Sleep(1000);
+	system("CLS");
+	//std::cerr << "-----------" << std::endl;
 }
 
 void DFS(int x, int y) {
